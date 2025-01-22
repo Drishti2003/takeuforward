@@ -11,18 +11,18 @@ class Reverse_Integer {
             x /= 10;
             sum = (sum * 10) + digit;
         }
-        if(sum>Integer.MIN_VALUE && sum<Integer.MAX_VALUE)
-        return (int)sum;
+        if (sum > Integer.MIN_VALUE && sum < Integer.MAX_VALUE)
+            return (int) sum;
         else
-        return 0;
+            return 0;
     }
 
     public int reverse(int x) {
         if (x < 0) {
             x *= -1;
             return reverse_num(x) * -1;
-        } else 
-        return reverse_num(x);
+        } else
+            return reverse_num(x);
 
     }
 }
