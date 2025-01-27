@@ -6,14 +6,14 @@ public class Print_1_To_N {
         obj.printNos(10);
     }
 
-    public int i = 1;
-
+     int i=1;
     public void printNos(int n) {
         // Your code here
-        if (n == i)
+        System.out.print(i+" ");
+        if(n==i)
         return;
-        System.out.print(i + " ");
-        printNos(i++);
-
+        i++;
+        printNos(n);
+        
     }
 }
