@@ -3,9 +3,7 @@ package Hashing;
 import java.util.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Frequencies_in_a_Limited_Array {
@@ -39,9 +37,9 @@ public class Frequencies_in_a_Limited_Array {
 
 class Solution {
     public List<Integer> frequencyCount(int[] arr) {
-        List<Integer> frequencyList =new ArrayList<Integer>(Collections.nCopies(arr.length, 0));
-        for(int i=0;i<arr.length;i++){
-            frequencyList.set(arr[i]-1, frequencyList.get(arr[i]-1)+1);
+        List<Integer> frequencyList = new ArrayList<Integer>(Collections.nCopies(arr.length, 0));
+        for (int i = 0; i < arr.length; i++) {
+            frequencyList.set(arr[i] - 1, frequencyList.get(arr[i] - 1) + 1);
         }
         return frequencyList;
     }
