@@ -1,5 +1,8 @@
 package Hashing;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Frequency_of_the_Most_Frequent_Element {
     public static void main(String[] args) {
         Frequency_of_the_Most_Frequent_Element f = new Frequency_of_the_Most_Frequent_Element();
@@ -14,30 +17,20 @@ public class Frequency_of_the_Most_Frequent_Element {
 
     public int maxFrequency(int[] nums, int k) {
         int temp = 0, count = 1, kcopy = k;
-        ;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] < nums[i + 1]) {
-                temp = nums[i];
-                nums[i] = nums[i + 1];
-                nums[i + 1] = temp;
-                i = -1;
-            }
-        }
-        temp = 0;
-        for (int j = 0; j <= nums.length - 1; j++) {
-            for (int i = j + 1; i <= nums.length - 1; i++) {
-                // if (count > (nums.length - 1) - i) {
-                // return count;
-                // }
+        Arrays.sort(nums);
+        for (int j = nums.length - 1; j >= 0; j--) {
+            for (int i = j - 1; i >= 0; i--) {
                 if (nums[j] - nums[i] <= k) {
                     k -= nums[j] - nums[i];
                     count++;
+                } else {
+                    break;
                 }
             }
             if (count > temp) {
                 temp = count;
             }
-            if (count > (nums.length - 1) - j) {
+            if (count > j) {
                 return temp;
             }
             count = 1;

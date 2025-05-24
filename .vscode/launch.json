@@ -1,0 +1,182 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "mergeSorting",
+      "request": "launch",
+      "mainClass": "Sorting.mergeSorting",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "Sorting.mergeSort",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "Sorting.QuickSort",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Frequencies_in_a_Limited_Array",
+      "request": "launch",
+      "mainClass": "Hashing.Frequencies_in_a_Limited_Array",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Frequency_of_the_Most_Frequent_Element",
+      "request": "launch",
+      "mainClass": "Hashing.Frequency_of_the_Most_Frequent_Element",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "LCM_And_GCD",
+      "request": "launch",
+      "mainClass": "LCM_And_GCD",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome_Number",
+      "request": "launch",
+      "mainClass": "Palindrome_Number",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Reverse_Integer",
+      "request": "launch",
+      "mainClass": "Reverse_Integer",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Bubble_Sort",
+      "request": "launch",
+      "mainClass": "Sorting.Bubble_Sort",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Insertion_sort",
+      "request": "launch",
+      "mainClass": "Sorting.Insertion_sort",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Selection_Sort",
+      "request": "launch",
+      "mainClass": "Sorting.Selection_Sort",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Sum_of_all_divisors",
+      "request": "launch",
+      "mainClass": "Sum_of_all_divisors",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "armstrong",
+      "request": "launch",
+      "mainClass": "armstrong",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "count_digits",
+      "request": "launch",
+      "mainClass": "count_digits",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "prime",
+      "request": "launch",
+      "mainClass": "prime",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Factorials_Less_than_or_Equal_to_n",
+      "request": "launch",
+      "mainClass": "recursion.Factorials_Less_than_or_Equal_to_n",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci_Number",
+      "request": "launch",
+      "mainClass": "recursion.Fibonacci_Number",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Print_1_To_N",
+      "request": "launch",
+      "mainClass": "recursion.Print_1_To_N",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Print_GFG_n_times",
+      "request": "launch",
+      "mainClass": "recursion.Print_GFG_n_times",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Print_N_to_1",
+      "request": "launch",
+      "mainClass": "recursion.Print_N_to_1",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Reverse_an_Array",
+      "request": "launch",
+      "mainClass": "recursion.Reverse_an_Array",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Sum_of_first_n_terms",
+      "request": "launch",
+      "mainClass": "recursion.Sum_of_first_n_terms",
+      "projectName": "takeuforward_52e10806"
+    },
+    {
+      "type": "java",
+      "name": "Valid_Palindrome",
+      "request": "launch",
+      "mainClass": "recursion.Valid_Palindrome",
+      "projectName": "takeuforward_52e10806"
+    }
+  ]
+}
